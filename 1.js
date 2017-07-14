@@ -6,7 +6,7 @@ function down(ev){
 	document.addEventListener('mousemove',move);
 	function move(ev){
 		div.style.left = ev.clientX - disX +'px';
-		div style.top = ev.clientY - disY +'px';
+		div.style.top = ev.clientY - disY +'px';
 	}
 }
 document.addEventListener('mouseup',up);
