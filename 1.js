@@ -13,4 +13,5 @@ function down(ev){
 		document.removeEventListener('mousemove',move);
 		document.removeEventListener('mouseup',up);
 	}
+	ev.preventDefault();
 }
