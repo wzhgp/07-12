@@ -10,7 +10,7 @@ function down(ev){
 		div.style.top = ev.clientY - disY +'px';
 	}
 	function up(){
-		document.removeEventListener('mousedown',move);
+		document.removeEventListener('mousemove',move);
 		document.removeEventListener('mouseup',up);
 	}
 }
