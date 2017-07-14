@@ -1,5 +1,4 @@
 var div = document.getElementById('div');
-<<<<<<< HEAD
 div.addEventListener('mousedown',down);
 function down(ev){
 	var disX = ev.clientX - div.offsetLeft;
